@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(187, 203, 248);
+}
+
+p {
+    margin: .5rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: .9rem 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* card style */
+.card {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 1rem -.1rem rgba(0, 0, 0, 0.1);
+    border-radius: .3rem;
+}
+
+.card div {
+    padding: .7rem;
+}
+
+.card-header {
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-around   ;
+}
+
+.card-header input,
+.card-header button {
+    width: 100%;
+    border: 1px solid gainsboro;
+    border-radius: .3rem 0 0 .3rem;
+    padding: .5rem;
+    outline-color: rgb(209, 209, 209);
+}
+
+.card-header button {
+    width: 20%;
+    border-radius: 0 .3rem .3rem 0;
+    border-left: none;
+    background-color: rgb(138, 160, 223);
+    border: 1px solid rgb(138, 160, 223);
+    color: white;
+}
+
+.card-body ul {
+    list-style: none;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.card-body ul li {
+    border: 1px solid rgb(233, 233, 233);
+    border-bottom: none;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body ul li span i:last-child {
+    color: crimson;
+    margin-left: .3rem;
+}
+
+.card-body ul li span i:first-child {
+    color: rgb(138, 160, 223);
+}
+
+
+/* completed style */
+.completed {
+    text-decoration: line-through;
+}
